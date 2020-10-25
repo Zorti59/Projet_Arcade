@@ -140,15 +140,41 @@ color: red;
 }
 
 .third_part {
-height: 600px;
+height: 570px;
+background-color: rgb(209, 205, 205);
 }
 
 .picture_third_part img {
-width: 25%;
-height: 350px;
-object-fit: cover;
 border-radius: 10px;
 float: right;
+}
+
+.picture_left_third_part {
+    width: 27%;
+height: 390px;
+object-fit: cover;
+margin-top: 115px;
+margin-right: 40px;
+}
+
+.picture_right_third_part {
+    width: 25%;
+height: 350px;
+object-fit: cover;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.text_third_part {
+    width: 35%;
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+
+.text_third_part p {
+padding-bottom: 100px;
+
 }
 
 .fourth_part img {
