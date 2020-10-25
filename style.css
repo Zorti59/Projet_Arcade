@@ -139,8 +139,16 @@ color: red;
     object-fit: cover;
 }
 
+.third_part {
+height: 600px;
+}
+
 .picture_third_part img {
-width: 50%;
+width: 25%;
+height: 350px;
+object-fit: cover;
+border-radius: 10px;
+float: right;
 }
 
 .fourth_part img {
